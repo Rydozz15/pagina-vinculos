@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import { useContext } from "react";
 import { contactData, menus } from "../lib/data";
 import { NavbarContext } from "../context/NavbarContext";
@@ -9,12 +8,11 @@ import { InboxArrowDownIcon, Bars3Icon } from "@heroicons/react/16/solid";
 export default function Navbar() {
   const { visibleSection } = useContext(NavbarContext);
   const { whatsAppLink } = contactData;
-  console.log(visibleSection);
   return (
     <nav className="navbar justify-between bg-logo sticky top-0 z-50 shadow-md py-3">
       {/* Logo */}
       <Link href={`#${menus[0]}`}>
-        <Image alt="Logo" src="/Logo-m.png" width={100} height={50} />
+        <img alt="Logo" src="/Logo-m.png" width={100} height={50} />
       </Link>
 
       {/* Menu for mobile */}

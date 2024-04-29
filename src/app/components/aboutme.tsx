@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useContext } from "react";
 import { useInView } from "react-intersection-observer";
 
@@ -21,7 +20,7 @@ export default function AboutMe() {
       id={menus[3]}
       ref={ref}
     >
-      <Image
+      <img
         src={"/bio.webp"}
         alt={`Imagen de ${clientData.name}`}
         width={380}
