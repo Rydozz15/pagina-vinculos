@@ -125,7 +125,7 @@ Juan Pablo Fuentes - [juan.fuentes@uc.cl](mailto:juan.fuentes@uc.cl)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: https://drive.google.com/file/d/1u7_PjMrCRKBY3QOyNJSdT-2t8mryjqo2/view?usp=sharing
+[product-screenshot]: https://lh3.googleusercontent.com/d/1u7_PjMrCRKBY3QOyNJSdT-2t8mryjqo2
 [react.js-bdg]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react.js-url]: https://reactjs.org/
 [next.js-bdg]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
